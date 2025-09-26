@@ -1,0 +1,174 @@
+body {
+    background-color: grey;
+    color: red; /* all text red */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Stats {
+    display: flex;
+    justify-content: center;
+}
+.review1{
+    display: flex;
+    justify-content: center;
+}
+.review2{
+    display: flex;
+    justify-content: center;
+}
+.review3{
+    display: flex;
+    justify-content: center;
+}
+.review4{
+    display: flex;
+    justify-content: center;
+}
+/* Navigation Bar */
+nav {
+    background-color: #222; /* dark background */
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* stays white */
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: red; /* hover effect */
+    color: #fff;
+}
+/* Index page styling */
+body.home {
+    color: white;
+    font-weight: bold;
+}
+
+/* About page styling */
+body.about {
+    color: white;
+    font-style: italic;
+}
+body.contact{
+    color:white;
+}
+/*product page styling */
+      .category {
+            margin: 40px auto;
+            padding: 20px;
+            background: #222;
+            border-radius: 10px;
+            color: white;
+            max-width: 900px;
+        }
+
+        .category h2 {
+            text-align: center;
+            color: red;
+            margin-bottom: 20px;
+        }
+
+        .car {
+            margin-bottom: 30px;
+        }
+
+        .car img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .car p {
+            text-align: center;
+        }
+        /*Enquiry page */
+           .enquiry-box {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #222;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .enquiry-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .enquiry-box label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .enquiry-box input,
+        .enquiry-box select,
+        .enquiry-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .enquiry-box button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 12px;
+            background: red;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .enquiry-box button:hover {
+            background: darkred;
+        }
+        .Footer1{
+           display: flex;
+          justify-content: center;
+        }
+        .Footer2{
+            display: flex;
+            justify-content: center;
+        }
+        .head{
+            display: flex;
+            justify-content: center;
+        }
